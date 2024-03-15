@@ -1,8 +1,5 @@
 # tokenizer
-Search engine tokenizer written in Python 3.9
-
-
-No dependencies required to run code as is, only Python 3.9+
+Search engine tokenizer written in Python
 
 Code for generating vocabulary growth graph uses matplotlib, however
 code and import statement are commented out so code can be run as is
@@ -10,8 +7,7 @@ With no third party dependencies
 
 install matplotlib with 'pip3 install matplotlib'
 
-Project uses the method removesuffix(), which was added in Python 3.9
-Must be run in Python 3.9+
+Python 3.9+ required
 
 To run part a navigate to src folder and run:
 	python3 part_a.py "[filepath of input text]"
